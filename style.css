@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+
+}
+
+body {
+    background: #5e4a2c;
+    color: #111111;
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+
+  }
+  
+  body,
+  input,
+  textarea,
+  button {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  
+  .calculator {
+    background-color: #2B1F0D;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 21%;
+    height: 85vh;
+    box-shadow: 2px 5px 30px #1f1609;
+  }
+  
+  
+  .display {
+    margin: 50px 0 60px;
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+
+    
+  }
+  
+  .display input {
+    background: transparent;
+    border: none;
+    color: #f2f2f2;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: right;
+    width: 100%;
+    padding-right: 5%;
+  }
+  
+  .display h2 {
+    color: #A9A8A9;
+    font-size: 15px;
+    font-weight: 500;
+    height: 18px;
+    padding-right: 8%;
+
+  }
+  
+
+  .row {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    margin-bottom: 10px;
+  }
+  
+ 
+  .button {
+    background-color: #6D4F22;
+    border: none;
+    border-radius: 50%;
+    color: #f2f2f2;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    height: 50px;
+    margin: 2px;
+    transition: all 0.15s ease-in-out;
+    width: 50px;
+  }
+  
+  .button:hover {
+    transform: scale(1.04);
+  }
+  .button:active {
+    transform: scale(0.97);
+  }
+  
+  .final{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  
+
+
+  #zero{
+    width: 110px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: first baseline;
+    padding-top: 2vh;
+    padding-left: 8%;
+    margin-left: -1px;
+
+  }
+  
+  .gray {
+    background-color: #C09453;
+    color: #f2f2f2;
+  }
+  
+  .purple {
+    background-color: #C09453;
+    color: #f2f2f2;
+  }
+  
+  .purple-text {
+    color: #f2f2f2;
+    background-color: #AD8F62;
+  }
+
+  footer{
+    width: 50%;
+    height: 1vh;
+    background-color: #bea887;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5vh;
+  }
+  
+  
